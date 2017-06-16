@@ -1,0 +1,202 @@
+{
+    "family":[
+        {
+            "f_id":"matsubara",
+            "f_name":"松原家",
+            "users":[
+                {
+                    "f_id": "matsubara",
+                    "u_id": "takumi",
+                    "u_name": "松原　匠",
+                    "u_point" : 0,
+                    "admin": true,
+                    "adult": true,
+                    "sex": true
+                },
+                {
+                    "f_id": "matsubara",
+                    "u_id": "ichiro",
+                    "u_name": "松原　一郎",
+                    "u_point" : 0,
+                    "admin": false,
+                    "adult": false,
+                    "sex": true
+                },
+                {
+                    "f_id": "matsubara",
+                    "u_id": "jiro",
+                    "u_name": "松原　二郎",
+                    "u_point" : 0,
+                    "admin": false,
+                    "adult": false,
+                    "sex": true
+                }
+            ],
+            "work":[
+                {
+                    "f_id": "matsubara",
+                    "w_name": "部屋",
+                    "w_text": "部屋",
+                    "point": 20,
+                    "g_id": 1,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 1,
+                        "g_name": "掃除"
+                    }
+
+                },
+                {
+                     "f_id": "matsubara",
+                    "w_name": "風呂",
+                    "w_text": "風呂",
+                    "point": 5,
+                    "g_id": 1,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 1,
+                        "g_name": "掃除"
+                    }
+                },
+                {
+                     "f_id": "matsubara",
+                    "w_name": "トイレ",
+                    "w_text": "トイレ",
+                    "point": 10,
+                    "g_id": 1,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 1,
+                        "g_name": "掃除"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "皿洗い",
+                    "w_text": "皿洗い",
+                    "point": 5,
+                    "g_id": 2,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 2,
+                        "g_name": "料理"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "一人で料理",
+                    "w_text": "一人で料理",
+                    "point": 30,
+                    "g_id": 2,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 2,
+                        "g_name": "料理"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "たたむ",
+                    "w_text": "たたむ",
+                    "point": 5,
+                    "g_id": 3,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 3,
+                        "g_name": "洗濯"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "取り込む",
+                    "w_text": "取り込む",
+                    "point": 5,
+                    "g_id": 3,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 3,
+                        "g_name": "洗濯"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "洗濯する",
+                    "w_text": "洗濯する",
+                    "point": 10,
+                    "g_id": 3,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 3,
+                        "g_name": "洗濯"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "宿題をする",
+                    "w_text": "宿題をする",
+                    "point": 5,
+                    "g_id": 4,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 4,
+                        "g_name": "勉強"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "一時間勉強する",
+                    "w_text": "一時間勉強する",
+                    "point": 10,
+                    "g_id": 4,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 4,
+                        "g_name": "勉強"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "夏休みの課題を終わらせる",
+                    "w_text": "夏休みの課題を終わらせる",
+                    "point": 100,
+                    "g_id": 4,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 4,
+                        "g_name": "勉強"
+                    }
+                },
+                {
+                    "f_id": "matsubara",
+                    "w_name": "お使いに行く",
+                    "w_text": "お使いに行く",
+                    "point": 10,
+                    "g_id": 5,
+                    "image": 1,
+                    "genre": {
+                        "g_id": 5,
+                        "g_name": "買い物"
+                    }
+                }
+            ],
+            "product":[
+                {
+                    "f_id":"matsubara",
+                    "p_point":50,
+                    "p_name":"好きなアイス"
+
+                },
+                {
+                    "f_id":"matsubara",
+                    "p_point":100,
+                    "p_name":"好きな本"
+                },
+                {
+                    "f_id":"matsubara",
+                    "p_point":2000,
+                    "p_name":"欲しいゲーム"
+                }
+            ]
+        }
+    ]
+}
